@@ -8,6 +8,8 @@ import com.github.jknack.handlebars.Handlebars;
 import com.github.jknack.handlebars.Template;
 import java.io.*;
 
+import java.util.Enumeration;
+
 public class Renderer extends HttpServlet 
 {
 
@@ -18,17 +20,22 @@ public class Renderer extends HttpServlet
 
         message = "";
 
+        String mainContent = "mainContent";
+        Object content = req.getAttribute(mainContent);
+
         Handlebars handlebars = new Handlebars();
         try {
-          Template template = handlebars.compileInline("Hello {{this}}!");
+          Template template = handlebars.compileInline("Got:{{this}}");
 
-          message = template.apply("Brightspot");} catch(IOException e) {
+          message = template.apply(content);} catch(IOException e) {
             e.printStackTrace();
         }
         res.setContentType("text/html"); PrintWriter out = res.getWriter();
         out.println("<HTML>");
         out.println("<BODY>");
         out.println(message); 
+
+
         out.println("</BODY></HTML>");
     }
 }

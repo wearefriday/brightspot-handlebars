@@ -16,4 +16,8 @@ public class Article extends Content {
     private List<String> keywords;
 
     // Getters and Setters
+
+    public String getHeadline() {
+       return headline;
+    }
 }
