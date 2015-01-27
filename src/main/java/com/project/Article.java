@@ -20,4 +20,9 @@ public class Article extends Content {
     public String getHeadline() {
        return headline;
     }
+
+    public ReferentialText getBodyText() {
+       return bodyText;
+    }
+
 }

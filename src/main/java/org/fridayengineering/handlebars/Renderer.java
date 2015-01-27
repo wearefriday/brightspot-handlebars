@@ -25,7 +25,7 @@ public class Renderer extends HttpServlet
 
         Handlebars handlebars = new Handlebars();
         try {
-          Template template = handlebars.compileInline("Got:{{this}}");
+          Template template = handlebars.compileInline("{{this.headline}}<br/>{{{this.bodyText.0}}}");
 
           message = template.apply(content);} catch(IOException e) {
             e.printStackTrace();
