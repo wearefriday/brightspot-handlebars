@@ -5,7 +5,7 @@ Drop in [Handlebars.java](https://github.com/jknack/handlebars.java) Renderer fo
 
 ## Dependencies
 
-* Maven 2
+* Maven 3+
 * Java 1.7
 
 ## Installation
