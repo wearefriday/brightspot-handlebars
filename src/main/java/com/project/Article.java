@@ -1,11 +1,13 @@
 package com.project;
 
-import com.psddev.dari.db.*;
-import com.psddev.dari.util.*;
-import com.psddev.cms.db.*;
-import java.util.*;
+import java.util.List;
 
-@Renderer.Path("/templates/example.hbs")
+import com.psddev.cms.db.Content;
+import com.psddev.cms.db.Renderer;
+import com.psddev.cms.db.ToolUi;
+import com.psddev.dari.db.ReferentialText;
+
+@Renderer.Path("article.hbs")
 public class Article extends Content {
 
     @Required

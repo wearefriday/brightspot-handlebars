@@ -10,7 +10,7 @@
 
     <servlet>
         <servlet-name>HandlebarsRenderer</servlet-name> 
-        <servlet-class>org.fridayengineering.handlebars.Renderer</servlet-class>
+        <servlet-class>org.fridayengineering.handlebars.HandlebarsRenderer</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>HandlebarsRenderer</servlet-name> 
