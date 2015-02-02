@@ -42,7 +42,7 @@ Login for the cms with username/password: **admin/admin**.
 
 ## Next Steps
 
-* Test with images
+* ~~Test with images~~
 * Test with partials
 * ~~Load template from file system~~
 * Use helpers
