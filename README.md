@@ -45,4 +45,4 @@ Login for the cms with username/password: **admin/admin**.
 * ~~Test with images~~
 * Test with partials
 * ~~Load template from file system~~
-* Use helpers
+* ~~Use helpers~~
