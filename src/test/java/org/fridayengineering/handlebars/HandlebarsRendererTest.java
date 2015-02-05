@@ -1,7 +1,6 @@
 package org.fridayengineering.handlebars;
 
 import static org.junit.Assert.assertTrue;
-import hbs.HandlebarsRendererTestClass;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,6 +10,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.fridayengineering.handlebars.HandlebarsRendererTestClass;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;

@@ -1,4 +1,4 @@
-package hbs;
+package org.fridayengineering.handlebars;
 
 import com.psddev.cms.db.Content;
 import com.psddev.cms.db.Renderer;
