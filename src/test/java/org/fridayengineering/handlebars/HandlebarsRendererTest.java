@@ -29,7 +29,6 @@ public class HandlebarsRendererTest extends Mockito {
     @Test
     public void testDoGet() throws ServletException, IOException {
 	HttpServletRequest request = mock(HttpServletRequest.class);
-
 	when(request.getAttribute("mainContent")).thenReturn(testClass);
 
 	HttpServletResponse response = mock(HttpServletResponse.class);
