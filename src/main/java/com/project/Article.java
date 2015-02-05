@@ -8,7 +8,7 @@ import com.psddev.cms.db.ToolUi;
 import com.psddev.dari.db.ReferentialText;
 import com.psddev.dari.util.StorageItem;
 
-@Renderer.Path("org/fridayengineering/handlebars/article.hbs")
+@Renderer.Path("hbs/article.hbs")
 public class Article extends Content {
 
     @Required
