@@ -10,14 +10,13 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.fridayengineering.handlebars.HandlebarsRendererTestClass;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 
 public class HandlebarsRendererTest extends Mockito {
 
-    private HandlebarsRendererTestClass testClass = new HandlebarsRendererTestClass();
+    private SimpleDomainClass testClass = new SimpleDomainClass();
     private final String FIELD_A = "field A";
     private final String FIELD_B = "field B";
 
