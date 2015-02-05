@@ -16,12 +16,13 @@ import org.mockito.Mockito;
 
 public class HandlebarsRendererTest extends Mockito {
 
-    private SimpleDomainClass testClass = new SimpleDomainClass();
+    private SimpleDomainClass testClass;
     private final String FIELD_A = "field A";
     private final String FIELD_B = "field B";
 
     @Before
     public void setUp() {
+	testClass = new SimpleDomainClass();
 	testClass.setFieldA(FIELD_A);
 	testClass.setFieldB(FIELD_B);
     }
